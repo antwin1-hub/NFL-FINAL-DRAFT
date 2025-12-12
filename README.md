@@ -1,9 +1,9 @@
 NFL Yards Final Project – STA 145 Replication Package
-This replication package contains all materials used for my STA-145 final project analyzing NFL team performance. The goal of the project is to examine how penalties and rushing production relate across NFL teams, and whether disciplined play correlates with rushing effectiveness.
+This replication package contains all materials used for my STA-145 final project analyzing NFL team performance. The goal of the project is to examine how penalties and rushing production relate across NFL teams and whether disciplined play correlates with rushing effectiveness.
 
 Instructions
 To run or review the analysis:
-Open “STA145-Noblej3.R”, which contains all R code used in the project.
+Open “STA145-antwin1.R”, which contains all R code used in the project.
 Open “Descriptive Statistics Table (Individual) - Sheet1.csv”, which contains the dataset used in the script.
 
 The original dataset, titled data.csv, was provided by the course instructor and stored in my ELSA Drive.
