@@ -22,7 +22,7 @@ Total Penalties (Continuous Variable)
 -Conceptual definition: A measure of how disciplined or error-prone a team is during games.
 -Operational definition: The numeric variable labeled total_penalties, representing the total number of penalties committed by a team.
 -Level of measurement: Continuous (ratio).
--Substantive relevance: Teams that commit fewer penalties often maintain better field position and offensive momentum, which may contribute to more effective overall performance.
+-Substantive relevance: Teams that commit fewer penalties often maintain better field position and offensive momentum, which may contribute to more effective overall performance. 
 
 Rushing First Downs (Continuous Variable)
 -Conceptual definition: A measure of a team’s ability to extend drives through rushing plays.
