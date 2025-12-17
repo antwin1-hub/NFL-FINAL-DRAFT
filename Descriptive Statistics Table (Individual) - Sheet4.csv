@@ -63,10 +63,3 @@ Dallas,5,1
 Los Angeles,6,7
 Houston,11,4
 Washington,5,10
-
-
-
-Variable	Min	1st Qu.	Median	Mean	3rd Qu.	Max	SD
-Total Penalties	0.000	5.000	7.000	6.766	9.000	14.000	2.84
-Rushing First Downs	1.000	5.000	6.000	6.656	8.000	13.000	2.79
-
