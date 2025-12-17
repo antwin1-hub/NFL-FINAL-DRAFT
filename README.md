@@ -1,30 +1,31 @@
 NFL Yards Final Project – STA 145 Replication Package
-This replication package contains all materials used for my STA-145 final project analyzing NFL team performance. The goal of the project is to examine how penalties and rushing production relate across NFL teams and whether disciplined play correlates with rushing effectiveness.
 
-Instructions
-To run or review the analysis:
-Open “STA145-antwin1.R”, which contains all R code used in the project.
-Open “Descriptive Statistics Table (Individual) - Sheet1.csv”, which contains the dataset used in the script.
+This replication package contains all materials used for my STA-145 final project analyzing NFL team performance. The purpose of the project is to examine the relationship between team discipline and rushing effectiveness by analyzing total penalties and rushing first downs across teams. Specifically, the project investigates whether more disciplined teams (those committing fewer penalties) tend to demonstrate stronger rushing performance.
 
-The original dataset, titled data.csv, was provided by the course instructor and stored in my ELSA Drive.
+Instructions for Replication
+To review or replicate the analysis:
+1. Open STA145-antwin1.R, which contains all R code used for data cleaning, descriptive statistics, visualization, and statistical analysis.
+2. Open data.csv, which contains the dataset used in the analysis.
+The original dataset (data.csv) was provided by the course instructor and stored in my ELSA Drive. All analyses were conducted using this dataset without modification beyond complete-case filtering.
 
 Data Description
+The dataset consists of team-level performance metrics for football teams. Each row represents a single team, and each column represents a measurable statistic related to team performance, including scoring, yardage, rushing outcomes, penalties, and efficiency measures.
+For this project, the analysis focuses on two key variables:
 
-The dataset includes team-level performance metrics for NCAA college football teams. Each row represents a single team, and each column represents a measurable statistic such as scoring, yards, rushing data, penalties, and efficiency measures.
-For this project, I focus on two variables:
-Total Penalties
-Rushing First Downs
-These variables help assess whether teams that play more disciplined football (fewer penalties) also tend to have more successful rushing offenses (more rushing first downs). This relationship is relevant for understanding strategic efficiency: disciplined teams may sustain drives better, avoid stalled possessions, and create more rushing opportunities.
+-Total Penalties
+-Rushing First Downs
 
-Operationalization
-1. Total Penalties (Continuous Variable)
+Together, these variables allow for an examination of whether disciplined play is associated with rushing effectiveness. This relationship is relevant for understanding strategic efficiency, as teams that commit fewer penalties may sustain drives more effectively, avoid stalled possessions, and create more opportunities for successful rushing plays.
+
+Operationalization of Variables
+Total Penalties (Continuous Variable)
 -Conceptual definition: A measure of how disciplined or error-prone a team is during games.
--Operational definition: The numeric value in the dataset labeled total_penalties represents the total number of penalties committed by the team.
+-Operational definition: The numeric variable labeled total_penalties, representing the total number of penalties committed by a team.
 -Level of measurement: Continuous (ratio).
--Why it matters: Teams with fewer penalties often maintain better field position and offensive momentum, potentially contributing to more effective overall play.
+-Substantive relevance: Teams that commit fewer penalties often maintain better field position and offensive momentum, which may contribute to more effective overall performance.
 
-2. Rushing First Downs (Continuous Variable)
+Rushing First Downs (Continuous Variable)
 -Conceptual definition: A measure of a team’s ability to extend drives through rushing plays.
--Operational definition: The numeric value labeled rushing_first_downs represents the count of rushing plays that resulted in a first down.
+-Operational definition: The numeric variable labeled rushing_first_downs, representing the number of rushing plays that result in a first down.
 -Level of measurement: Continuous (ratio).
--Why it matters: Higher numbers indicate a more productive and consistent rushing offense, which helps sustain drives, control tempo, and improve scoring opportunities.
+-Substantive relevance: Higher values indicate a more productive and consistent rushing offense, which can help sustain drives, control tempo, and improve scoring opportunities.
